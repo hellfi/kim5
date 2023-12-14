@@ -83,7 +83,7 @@ Icon=document-save
 Exec=kim_convert `kdialog --inputbox "Choose format to convert:" ` %U;
 
 [Desktop Action GrayScale]
-Name=Convert to graysale
+Name=Convert to grayscale
 Name[fr]=Convertir en échelle de gris
 Name[nl]=Converteren naar grijstinten
 Name[zh_TW]=轉換成灰階
