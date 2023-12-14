@@ -19,7 +19,7 @@
 [Desktop Entry]
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin,image/*
-Actions=Rcprs75;Rcprs80;Rcprs90;RcprsCustom;_SEPARATOR_;Rsize300;Rsize600;Rsize800;Rsize1024;Rsize1200;Rsize1400;RsizeCustom;_SEPARATOR_;WebExp75640;WebExp75800;WebExp751024
+Actions=Rcprs75;Rcprs80;Rcprs90;RcprsCustom;_SEPARATOR_;Rsize300;Rsize600;Rsize800;Rsize1024;Rsize1200;Rsize1400;Rsize2048;RsizeCustom;_SEPARATOR_;WebExp75640;WebExp75800;WebExp751024
 Encoding=UTF-8
 X-KDE-Submenu=Kim - Compress and Resize
 X-KDE-Submenu[fr]=Kim - Compresser et redimensionner
@@ -106,6 +106,14 @@ Name[nl]=Grootte aanpassen (1400x1050 pixels)
 Name[zh_TW]=調整大小（1400x1050 像素）
 Icon=transform-crop-and-resize
 Exec=kim_resize 1400x1400 %D %U
+
+[Desktop Action Rsize2048]
+Name=Resize (2048x2048 pixels)
+Name[fr]=Redimensionner (2048x2048 pixels)
+Name[nl]=Grootte aanpassen (2048x2048 pixels)
+Name[zh_TW]=調整大小（2048x2048 像素）
+Icon=transform-crop-and-resize
+Exec=kim_resize 2048x2048 %D %U
 
 [Desktop Action RsizeCustom]
 Name=Resize Custom...
